@@ -1,188 +1,196 @@
-
+/* theme.css */
 
 /* Dark Theme Styles */
 .dark {
-    color: #FFFFFF; /* White text */
-    background-color: #0F2027; /* Dark blue-gray background resembling space */
-    font-family: 'Comic Sans MS', cursive;
+    color: #ffffff; /* White text */
+    background-color: #212121; /* Dark background */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
 }
 
 .dark header {
-    background-color: #311B92; /* Dark purple header resembling space */
+    background-color: #424242; /* Dark header */
 }
 
 .dark p {
     margin-bottom: 50px;
-    color: #FFD600; /* Bright yellow text resembling stars */
+    color: #ffd600; /* Yellow text */
 }
 
-.dark nav ul li a, .dark a {
-    color: #FF9800; /* Bright orange resembling glowing stars */
+.dark nav ul li a,
+.dark a {
+    color: #ff9800; /* Orange links */
 }
 
-.dark nav ul li a:hover, .dark a:hover {
-    color: #FF6D00; /* Darker orange on hover */
+.dark nav ul li a:hover,
+.dark a:hover {
+    color: #ff6d00; /* Darker orange on hover */
 }
 
 .dark .container {
-    background-color: #263238; /* Dark blue-gray container resembling deep space */
+    background-color: #37474f; /* Dark container */
 }
 
-.dark .button, .dark .notes button {
-    background-color: #FF5722; /* Deep orange button resembling a supernova */
-    color: #311B92;
+.dark .button,
+.dark .notes button {
+    background-color: #f44336; /* Red button */
+    color: #ffffff; /* White text */
 }
 
-.dark .button:hover, .dark .notes button:hover {
-    background-color: #E64A19; /* Darker orange on hover */
+.dark .button:hover,
+.dark .notes button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
 }
 
 .dark .notes li {
-    background-color: #455A64; /* Dark steel blue note resembling a distant nebula */
-    border: 1px solid #546E7A; /* Lighter steel blue border */
+    background-color: #455a64; /* Dark note */
+    border: 1px solid #546e7a; /* Lighter border */
 }
 
-.dark .content, .dark .notes label, .dark .notes li strong {
-    color: #FFD600; /* Bright yellow resembling stars */
+.dark .content,
+.dark .notes label,
+.dark .notes li strong {
+    color: #ffd600; /* Yellow text */
 }
 
 .dark .card {
-    background: linear-gradient(to bottom, #311B92, #0F2027); /* Dark purple-blue gradient resembling space */
-    text-decoration: none;
+    background: #424242; /* Dark card background */
+    border: 1px solid #616161; /* Dark border */
 }
 
 .dark .card a {
-    color: #FF9800; /* Bright orange resembling glowing stars */
-    text-decoration: none;
+    color: #ff9800; /* Orange links */
 }
 
 .dark .card p {
-    color: #FFD600; /* Bright yellow resembling stars */
+    color: #ffd600; /* Yellow text */
 }
 
 /* Light Theme Styles */
 .light {
-    color: #212121; /* Dark charcoal text */
-    background-color: #FFECB3; /* Light yellow background resembling sandy beach */
-    font-family: 'Comic Sans MS', cursive;
+    color: #212121; /* Dark text */
+    background-color: #ffffff; /* White background */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
 }
 
 .light header {
-    background-color: #81D4FA; /* Light blue header resembling clear sky */
+    background-color: #f5f5f5; /* Light header */
 }
 
 .light p {
     margin-bottom: 50px;
-    color: #546E7A; /* Dark blue-gray text resembling shadows on the beach */
+    color: #757575; /* Gray text */
 }
 
-.light nav ul li a, .light a {
-    color: #546E7A; /* Bright orange resembling sunlight */
+.light nav ul li a,
+.light a {
+    color: #2196f3; /* Blue links */
 }
 
-.light nav ul li a:hover, .light a:hover {
-    color: #FF9100; /* Darker orange on hover */
+.light nav ul li a:hover,
+.light a:hover {
+    color: #1976d2; /* Darker blue on hover */
 }
 
 .light .container {
-    background-color: #FFE082; /* Light yellow container resembling sandy beach */
+    background-color: #fafafa; /* Light container */
 }
 
-.light .button, .light .notes button {
-    background-color: #00ACC1; /* Bright blue button resembling clear sky */
+.light .button,
+.light .notes button {
+    background-color: #4caf50; /* Green button */
+    color: #ffffff; /* White text */
 }
 
-.light .button:hover, .light .notes button:hover {
-    background-color: #0097A7; /* Darker blue on hover */
+.light .button:hover,
+.light .notes button:hover {
+    background-color: #388e3c; /* Darker green on hover */
 }
 
 .light .notes li {
-    background-color: #FFF9C4; /* Light sand note */
-    border: 1px solid #FFD54F; /* Bright yellow border */
+    background-color: #f5f5f5; /* Light note */
+    border: 1px solid #e0e0e0; /* Lighter border */
 }
 
-.light .content, .light .notes label, .light .notes li strong {
-    color: #212121; /* Dark charcoal */
+.light .content,
+.light .notes label,
+.light .notes li strong {
+    color: #212121; /* Dark text */
 }
 
 .light .card {
-    background: linear-gradient(to bottom, #FFECB3, #FFFDE7); /* Light yellow gradient resembling sandy beach */
-    text-decoration: none;
+    background: #ffffff; /* White card background */
+    border: 1px solid #bdbdbd; /* Light border */
 }
 
 .light .card a {
-    color: #212121; /* Bright orange resembling sunlight */
-    text-decoration: none;
+    color: #2196f3; /* Blue links */
 }
 
 .light .card p {
-    color: #212121; /* Dark charcoal */
+    color: #757575; /* Gray text */
 }
 
-/* Fun Theme Styles */
+/* Updated Fun Theme Styles */
+
 .fun {
-    color: #FFFFFF; /* White text */
-    background-color: #FF4081; /* Pink background */
+    color: #ffffff; /* White text */
+    background-color: #ff6f00; /* Vibrant orange background */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
 }
 
 .fun header {
-    background-color: #7B1FA2; /* Purple header */
+    background-color: #ec407a; /* Pink header */
 }
 
-.fun p {
-    color: #FFFFFF; /* White text */
+.fun nav ul li a,
+.fun a {
+    color: #ffffff; /* White links */
 }
 
-.fun nav ul li a, .fun a {
-    color: #FFFFFF; /* White links */
-    text-decoration: none; /* Remove underline */
+.fun nav ul li a:hover,
+.fun a:hover {
+    color: #d81b60; /* Darker pink on hover */
 }
 
-.fun nav ul li a:hover, .fun a:hover {
-    color: #FF4081; /* Pink on hover */
+.fun .button,
+.fun .notes button {
+    background-color: #ffeb3b; /* Yellow button */
+    color: #212121; /* Dark text */
 }
 
-.fun .container {
-    background-color: #FF80AB; /* Light pink container */
-}
-
-.fun .button, .fun .notes button {
-    background-color: #FF4081; /* Pink button */
-    color: #FFFFFF; /* White text */
-}
-
-.fun .button:hover, .fun .notes button:hover {
-    background-color: #F50057; /* Darker pink on hover */
+.fun .button:hover,
+.fun .notes button:hover {
+    background-color: #fbc02d; /* Darker yellow on hover */
 }
 
 .fun .notes li {
-    background-color: #FFAB91; /* Light orange note */
-    border: 1px solid #FF7043; /* Darker orange border */
+    background-color: #ffcc80; /* Light orange note */
+    border: 1px solid #ffb74d; /* Darker orange border */
 }
 
-.fun .content, .fun .notes label, .fun .notes li strong {
-    color: #FFFFFF; /* White text */
+.fun .content,
+.fun .notes label,
+.fun .notes li strong {
+    color: #212121; /* Dark text */
 }
 
 .fun .card {
-    background: linear-gradient(to bottom, #7B1FA2, #FF4081); /* Purple to pink gradient */
+    background: #f48fb1; /* Light pink card background */
+    border: 1px solid #ff4081; /* Dark pink border */
 }
 
 .fun .card a {
-    color: #FFFFFF; /* White links */
-    text-decoration: none; /* Remove underline */
+    color: #2196f3; /* Blue links */
 }
 
 .fun .card p {
-    color: #FFFFFF; /* White text */
+    color: #757575; /* Gray text */
 }
-
-
 /* Serious Theme Styles */
 .serious {
     color: #4b4b4b; /* Dark gray text */
     background-color: #e5eff5; /* Light background */
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Roboto', sans-serif; /* Roboto font */
 }
 
 .serious header {
@@ -193,12 +201,14 @@
     color: #4b4b4b; /* Dark gray text */
 }
 
-.serious nav ul li a, .serious a {
+.serious nav ul li a,
+.serious a {
     color: #176cc0; /* Dark link text */
     text-decoration: none; /* Remove underline */
 }
 
-.serious nav ul li a:hover, .serious a:hover {
+.serious nav ul li a:hover,
+.serious a:hover {
     color: #f05230; /* Red on hover */
 }
 
@@ -206,13 +216,15 @@
     background-color: #e5eff5; /* Light container */
 }
 
-.serious .button, .serious .notes button {
+.serious .button,
+.serious .notes button {
     background-color: #151719; /* Dark button */
     color: #fff; /* White text */
     border: 2px solid #e1e1e1; /* Light border */
 }
 
-.serious .button:hover, .serious .notes button:hover {
+.serious .button:hover,
+.serious .notes button:hover {
     background-color: #f05230; /* Red on hover */
 }
 
@@ -221,7 +233,9 @@
     border: 1px solid #e1e1e1; /* Light border */
 }
 
-.serious .content, .serious .notes label, .serious .notes li strong {
+.serious .content,
+.serious .notes label,
+.serious .notes li strong {
     color: #4b4b4b; /* Dark gray text */
 }
 
@@ -238,15 +252,11 @@
     color: #333; /* Darker text color */
 }
 
-
-
-
-
 /* Space Theme Styles */
 .space {
     color: #FFFFFF; /* White text */
     background-color: #001122; /* Dark blue-black background */
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Roboto', sans-serif; /* Roboto font */
 }
 
 .space header {
@@ -257,12 +267,14 @@
     color: #CCCCCC; /* Light gray text */
 }
 
-.space nav ul li a, .space a {
+.space nav ul li a,
+.space a {
     color: #FFFFFF; /* White links */
     text-decoration: none; /* Remove underline */
 }
 
-.space nav ul li a:hover, .space a:hover {
+.space nav ul li a:hover,
+.space a:hover {
     color: #999999; /* Light gray on hover */
 }
 
@@ -270,12 +282,14 @@
     background-color: #04080D; /* Dark blue container */
 }
 
-.space .button, .space .notes button {
+.space .button,
+.space .notes button {
     background-color: #004488; /* Dark blue button */
     color: #FFFFFF; /* White text */
 }
 
-.space .button:hover, .space .notes button:hover {
+.space .button:hover,
+.space .notes button:hover {
     background-color: #0055AA; /* Slightly lighter blue on hover */
 }
 
@@ -284,7 +298,9 @@
     border: 1px solid #003366; /* Darker blue border */
 }
 
-.space .content, .space .notes label, .space .notes li strong {
+.space .content,
+.space .notes label,
+.space .notes li strong {
     color: #CCCCCC; /* Light gray text */
 }
 

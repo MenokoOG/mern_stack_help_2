@@ -1,13 +1,11 @@
+/* base.css */
 
-@font-face {
-    font-family: 'Comic Sans MS';
-    src: url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     padding-top: 30px;
     font-size: 16px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
 }

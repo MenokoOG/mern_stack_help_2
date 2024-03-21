@@ -2,7 +2,9 @@ form {
     margin-top: 50px;
 }
 
-.intro img, .notes input[type="text"], .notes textarea {
+.intro img,
+.notes input[type="text"],
+.notes textarea {
     max-width: 100%;
     width: 100%;
     padding: 8px;
@@ -10,4 +12,3 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
