@@ -1,0 +1,27 @@
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .container, nav ul li a {
+        padding: 10px;
+    }
+
+    header {
+        padding-top: 10px;
+    }
+
+    .page-title, h1 {
+        font-size: 24px;
+    }
+
+    .button, .notes button {
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .notes li {
+        flex-direction: column;
+    }
+}
