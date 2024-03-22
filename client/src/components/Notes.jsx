@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
-import { UserContext } from '../context/userProvider'; // Assuming this is the correct path to your UserProvider
+import { UserContext } from '../context/userProvider'; 
 
 const Notes = () => {
   const { token } = useContext(UserContext);
